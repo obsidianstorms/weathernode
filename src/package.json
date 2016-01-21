@@ -1,0 +1,32 @@
+{
+  "name": "teppins",
+  "version": "1.0.0",
+  "description": "NodeJS and API use training",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryust/teppins.git"
+  },
+  "keywords": [
+    "Weather",
+    "NodeJS"
+  ],
+  "author": "Rick Yust",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryust/teppins/issues"
+  },
+  "homepage": "https://github.com/ryust/teppins#readme",
+  "private": true,
+  "dependencies": {
+    "express": "^4.13.3",
+    "sprintf-js": "^1.0.3",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}

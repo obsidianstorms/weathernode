@@ -1,0 +1,12 @@
+button.query {
+    width: 75px;
+    margin-left: 5px;
+}
+
+.conditions {
+    width: 80px;
+    margin-left: 5px;
+    background: #CCCCCC;
+    height: 40px;
+    float: left;
+}

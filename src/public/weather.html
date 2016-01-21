@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Static Node Client Page</title>
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/weatherclient.js"></script>
+</head>
+<body>
+<h1>Weather Layout</h1>
+<div id="error">
+    <span class="value"></span>
+</div>
+<div>
+    <button class="query" id="mso">Missoula</button>
+    <button class="query" id="home">Home</button>
+    <button class="query" id="den">Denver</button>
+</div>
+<div id="content">
+    <div class="conditions" id="mso_output">
+        <span class="value"></span>
+    </div>
+    <div class="conditions" id="home_output">
+        <span class="value"></span>
+    </div>
+    <div class="conditions" id="den_output">
+        <span class="value"></span>
+    </div>
+</div>
+</body>
+</html>
